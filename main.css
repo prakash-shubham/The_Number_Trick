@@ -1,0 +1,31 @@
+body
+{
+    background-image: url("backg.jpg");
+    color: lightgrey;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: Calibri;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6
+{
+
+    width:410px;
+    height:190px;
+    background-color: black;
+    box-shadow: 5px 5px 5px black;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin: 15px;
+    display:inline-block;
+}
+
+#div1:hover,#div2:hover,#div3:hover,#div4:hover,#div5:hover,#div6:hover
+{
+    transform: translate(-3px,-3px);
+    box-shadow: 8px 8px 5px grey;
+}
+#div7
+{
+    text-align: center;
+}
